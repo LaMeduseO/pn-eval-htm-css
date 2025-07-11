@@ -2,4 +2,83 @@
     margin : 0;
     padding : 0;
     box-sizing: border-box;
+
+    
+        /* color */
+
+        --Color-jaune: #f7c548;
+}
+
+@font-face {
+    font-family: Police;
+    src: url(./eval1.otf);
+
+
+}
+
+
+#Logo{
+    width: 250px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    
+    background-color: black;
+    width: 30vw;
+    height: 150vh;
+    padding: 20px;
+}
+
+#button-aside{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.5rem;
+    
+
+    height: 50vh;
+  
+    
+    
+}
+
+#button-aside a{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: var(--Color-jaune);
+    width: 15vw;
+    
+    
+}
+
+#button-aside a:hover{
+    border-radius: 10px;
+    box-shadow: var(--Color-jaune)3px 3px 8px 0;
+    transition: 1000ms;
+    background-color: rgb(45, 42, 42);
+
+
+}
+
+
+main{
+    display: flex;
+}
+
+article{
+    padding: 20px;
+    width: 70vw;
+
 }
